@@ -1,0 +1,13 @@
+{
+  "name": "simple-web",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "bs-html-injector": "^3.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
