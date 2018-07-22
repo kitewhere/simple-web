@@ -4,9 +4,9 @@ var bs = require('browser-sync').create();
  * Run Browsersync with server config
  */
 bs.init({
-    server: './app',
-    index: 'index.htm',
-    files: ['app/css/*.css'],
+    server: 'src',
+    index: 'index.html',
+    files: ['src/assets/css/css'],
     open: false,
     watchOptions: {
         usePolling:true
@@ -15,7 +15,7 @@ bs.init({
         {
             module: 'bs-html-injector',
             options: {
-                files: ['app/*.htm']
+                files: ['src/index.html']
             }
         }
     ]
